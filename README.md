@@ -1,4 +1,4 @@
-# AutoStream Social-to-Lead Agent 🚀
+# AutoStream Social-to-Lead Agent
 
 An intelligent conversational AI agent built with **LangGraph** that transforms social media interactions into qualified leads for AutoStream, an AI-powered video editing SaaS platform.
 
@@ -15,7 +15,7 @@ An intelligent conversational AI agent built with **LangGraph** that transforms 
 
 ---
 
-## ✨ Features
+##Features
 
 - **Intent Classification**: Automatically detects user intent (greeting, inquiry, high-intent)
 - **RAG-Powered Knowledge Base**: Retrieves accurate product information using ChromaDB vector search
@@ -25,7 +25,7 @@ An intelligent conversational AI agent built with **LangGraph** that transforms 
 
 ---
 
-## 🏃 How to Run the Project Locally
+##How to Run the Project Locally
 
 ### Prerequisites
 
@@ -118,14 +118,14 @@ You: Sarah Martinez
 Agent: Perfect! What's your email address?
 
 You: sarah@example.com
-Agent: Perfect! Thank you, Sarah Martinez! 🎉
+Agent: Perfect! Thank you, Sarah Martinez!
 
 I've registered your interest in AutoStream...
 ```
 
 ---
 
-## 🏗️ Architecture Explanation
+##Architecture Explanation
 
 ### Why LangGraph is chosen
 
@@ -170,7 +170,7 @@ This architecture enables:
 
 ---
 
-## 📱 WhatsApp Deployment via Webhooks
+##WhatsApp Deployment via Webhooks
 
 ### Integration Architecture
 
@@ -312,7 +312,7 @@ PHONE_NUMBER_ID=your_whatsapp_phone_id
 
 ---
 
-## 📂 Project Structure
+##Project Structure
 
 ```
 Project/
@@ -335,7 +335,7 @@ Project/
 
 ---
 
-## 🛠️ Technologies Used
+##Technologies Used
 
 | Component | Technology | Purpose |
 |-----------|-----------|---------|
@@ -348,7 +348,7 @@ Project/
 
 ---
 
-## 📊 Workflow Diagram
+##Workflow Diagram
 
 ```
 User Input
