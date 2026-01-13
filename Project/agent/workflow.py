@@ -224,7 +224,7 @@ Your Answer:"""
             state["lead_data"] = self.lead_collector.collected_data
             state["awaiting_field"] = None
             
-            response = f"Perfect! Thank you, {self.lead_collector.collected_data['name']}! 🎉\n\n"
+            response = f"Perfect! Thank you, {self.lead_collector.collected_data['name']}!\n\n"
             response += "I've registered your interest in AutoStream. Our team will reach out to "
             response += f"{self.lead_collector.collected_data['email']} within 24 hours to help you "
             response += f"get started with optimizing your {self.lead_collector.collected_data['platform']} content!\n\n"
@@ -298,4 +298,5 @@ if __name__ == "__main__":
     for message in test_conversation:
         print(f"\nUser: {message}")
         state = agent.run(message, state)
+
         print(f"Agent: {state['response']}")
