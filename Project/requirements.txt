@@ -1,0 +1,18 @@
+# Core Dependencies
+langchain==0.1.0
+langgraph==0.0.20
+langchain-openai==0.0.5
+langchain-google-genai==0.0.6
+langchain-anthropic==0.0.2
+langchain-community==0.0.13
+
+# Vector Store & Embeddings
+chromadb==0.4.22
+sentence-transformers==2.3.1
+pysqlite3-binary; sys_platform == 'linux'  # Optional: For Linux compatibility with ChromaDB
+
+# Utilities
+python-dotenv==1.0.0
+pydantic==2.5.3
+colorama==0.4.6
+tf-keras  # For compatibility with newer Transformers versions
